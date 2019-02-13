@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'training-app';
+  films: string[] = ['La planète de singe', 'Titanic', 'Le grand bleu', 'Creed', 'Wakanda'];
+  jour: number = Date.now();
 }
